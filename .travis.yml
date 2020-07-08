@@ -1,3 +1,5 @@
+dist: bionic
+
 install:
   g++ square.cpp -o square.out
 
