@@ -1,6 +1,6 @@
 install:
-  g++ -std=c++11 square.cpp -o square.out
+  - g++ -std=c++11 square.cpp -o square.out
 
 script:
-  pyenv 3.8
-  python -m unittest
+  - pyenv 3.7.1
+  - python -m unittest
