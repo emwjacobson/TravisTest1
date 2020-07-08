@@ -1,4 +1,5 @@
 dist: bionic
+language: python
 
 install:
   g++ square.cpp -o square.out
