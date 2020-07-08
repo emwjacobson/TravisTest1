@@ -1,5 +1,5 @@
 install:
-  g++ -std=c++11 -square.cpp -o square.out
+  g++ -std=c++11 square.cpp -o square.out
 
 script:
   pyenv 3.8
