@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
     if(argc < 2) {
-        cout << "Invalid arguments. Usage: " << argv[0] << " #" << endl;
+        cerr << "Invalid arguments. Usage: " << argv[0] << " #" << endl;
         return 1;
     }
 
@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
     try {
         num = stof(a);
     } catch (const invalid_argument &ia) {
-        cout << "Error, number not entered. Usage: " << argv[0] << " #" << endl;
+        cerr << "Error, number not entered. Usage: " << argv[0] << " #" << endl;
         return 1;
     }
     cout << pow(num, 2) << endl;
