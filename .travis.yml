@@ -1,0 +1,5 @@
+install:
+  g++ square.cpp -o square.out
+
+script:
+  python -m unittest
