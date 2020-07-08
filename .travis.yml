@@ -1,7 +1,6 @@
-dist: bionic
-
 install:
-  g++ square.cpp -o square.out
+  g++ -std=c++11 -square.cpp -o square.out
 
 script:
-  python -V
+  pyenv 3.8
+  python -m unittest
